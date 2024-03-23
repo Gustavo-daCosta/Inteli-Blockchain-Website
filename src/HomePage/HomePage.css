@@ -1,0 +1,41 @@
+main {
+    background-image: url('../Assets/background-ib.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+
+.logo {
+    width: 50vw;
+}
+
+
+.here-link {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.forms {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: calc(100vw / 3);
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.contato {
+    width: 20px;
+}
